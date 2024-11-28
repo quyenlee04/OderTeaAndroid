@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/backgroud"
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <ImageButton
+            android:id="@+id/backButton"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:background="?attr/selectableItemBackgroundBorderless"
+            android:src="@drawable/ic_back"
+            android:layout_gravity="start"/>
+        <ImageView
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="16dp"
+            android:src="@drawable/logo_tea"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="24dp"
+            android:gravity="center"
+            android:text="Ứng Dụng Bán Chè"
+            android:textSize="24sp"
+            android:textStyle="bold"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Chúng tôi có 20 năm kinh nghiệm trong lĩnh vực kinh doanh chè. Chè của chúng tôi đem lại cho quý khách hàng trải nghiệm tươi mát, ngon, bổ dưỡng về sức khoẻ và tinh thần."
+            android:textSize="17dp"
+            android:textColor="@color/black"
+            android:textStyle="bold|normal"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Cảm ơn quý khách hàng đã tin tưởng ủng hộ"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:textColor="#E40D56"
+            />
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="24dp"
+            android:text="Thông Tin Liên Hệ"
+            android:textColor="@color/black"
+            android:textSize="20sp"
+            android:textStyle="bold"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+
+            android:layout_marginTop="16dp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Họ và tên: Lê Văn Quyến"
+                android:textSize="18dp"
+                android:textColor="@color/black"
+                android:layout_marginBottom="8dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Số điện thoại: 0364048055"
+                android:textSize="18dp"
+                android:textColor="@color/black"
+                android:layout_marginBottom="8dp"
+                android:autoLink="phone"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Email: quyenle5184@gmail.com"
+                android:textSize="18dp"
+                android:textColor="@color/black"
+                android:layout_marginBottom="8dp"
+                android:autoLink="email"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Địa chỉ: 601/31/22 Thống Nhất, Phường 16, Gò Vấp"
+                android:textSize="18dp"
+                android:textColor="@color/black"
+                android:layout_marginBottom="16dp"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:gravity="center"
+                android:layout_marginTop="16dp">
+
+                <ImageButton
+                    android:id="@+id/facebookButton"
+                    android:layout_width="128px"
+                    android:layout_height="128px"
+                    android:layout_margin="8dp"
+                    android:background="@drawable/ic_facebook"/>
+
+                <ImageButton
+                    android:id="@+id/instagramButton"
+                    android:layout_width="128px"
+                    android:layout_height="128px"
+                    android:layout_margin="8dp"
+                    android:background="@drawable/ic_instagram"/>
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>
